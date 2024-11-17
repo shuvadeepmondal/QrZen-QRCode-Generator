@@ -36,7 +36,7 @@ const Qrcodegen: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col items-center p-6 bg-gray-100 min-h-screen">
+    <div className="flex flex-col items-center p-6 bg-gray-800 min-h-screen">
       <h1 className="text-3xl font-bold mb-4">Qr<span className='text-purple-800'>Z</span>en</h1>
       <input
         type="text"
