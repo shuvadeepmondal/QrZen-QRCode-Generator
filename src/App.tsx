@@ -1,5 +1,6 @@
 // import { Route, Routes } from "react-router-dom";
-import Qrcodegen from "./components/qrcodegen/Qrcodegen";
+import Customgen from "./components/customqr/Customgen";
+// import Qrcodegen from "./components/qrcodegen/Qrcodegen";
 
 
 const App: React.FC = () => {
@@ -7,7 +8,8 @@ const App: React.FC = () => {
     <>
      
       <div>
-        <Qrcodegen/>
+        
+        <Customgen/>
       </div>
     </>
   );
