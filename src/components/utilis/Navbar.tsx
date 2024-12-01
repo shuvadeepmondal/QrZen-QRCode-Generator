@@ -6,7 +6,7 @@ import { Button } from '../ui/button';
 const Navbar: React.FC = () => {
 
   return (
-    <nav className="border-gray-100 py-2 fixed top-0 w-full z-50 backdrop:blur">
+    <nav className="border-gray-800 py-2 fixed top-0 w-full z-50 backdrop:blur bg-slate-900">
       <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 py-1 mx-auto">
         <Link to="#" className="flex items-center">
           {/* <img
@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
             alt="Logo"
           /> */}
           <h2 className="self-center text-3xl text-white font-semibold whitespace-nowrap">
-            Qr<span className='text-purple-500'>Zen</span>
+            Qr<span className='text-purple-800'>Z</span>en
           </h2>
         </Link>
         <div className="flex items-center lg:order-2">
