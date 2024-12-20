@@ -27,7 +27,7 @@ export default function Home() {
           </h1>
           <p className="text-lg sm:text-xl lg:text-2xl text-gray-700 mt-5 leading-relaxed">
             Make Your QR code <br className="hidden sm:block" />
-            Seamless And Customize 
+            Seamless And U
           </p>
         </div>
         <div
