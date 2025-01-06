@@ -26,8 +26,8 @@ export default function Home() {
             </span>
           </h1>
           <p className="text-lg sm:text-xl lg:text-2xl text-gray-700 mt-5 leading-relaxed">
-            Join our community where creativity <br className="hidden sm:block" />
-            meets code and innovation begins.
+            Make Your QR code <br className="hidden sm:block" />
+            Seamless And U
           </p>
         </div>
         <div
