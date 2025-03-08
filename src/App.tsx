@@ -1,21 +1,22 @@
-import { Route, Routes } from "react-router-dom";
-import Customgen from "./components/customqr/Customgen";
-import Home from "./components/home/Home";
-import Navbar from "./components/utilis/Navbar";
+// import { Routes, Route } from "react-router-dom";
+// import Home from "./components/home/Home";
+// import Navbar from "./components/utilis/Navbar";
 // import Qrcodegen from "./components/qrcodegen/Qrcodegen";
+
+// import ParticleBackground from "./components/ui/Particlebackground";
+import SolarSystem from "./components/ui/SolarSystem";
 
 
 const App: React.FC = () => {
   return (
-    <div className="bg-slate-400">
-      <Navbar/> 
-      <div className="pt-[80px]"> {/* Padding to prevent overlap with navbar */}
+      <div className="min-h-screen">
+        <SolarSystem/>
+        {/* <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/customqr" element={<Customgen />} />
-        </Routes>
+          <Route path="/qrgeneration" element={<Qrcodegen />} />
+        </Routes> */}
       </div>
-    </div>
   );
 
 }
